@@ -68,7 +68,7 @@ jobs:
       with:
         path: doc/version_log.md
         contents: |
-          # CloudStream-3XXX r${{ env.COMMIT_COUNT }}
+          # CloudStream-3XX4 r${{ env.COMMIT_COUNT }}
           ${{ steps.unreleasedbody.outputs.content }}
           
           ${{ steps.currentBody.outputs.content }}
